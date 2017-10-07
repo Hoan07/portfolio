@@ -1,67 +1,9 @@
 html, body {
-  height:100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
   font-size: calc(2vh + 1vw);
+  background-color: grey;
 }
 
-.cover {
-  height: 100%;
-  background-color:#5D6170
-}
-
-.title {
-  height: 10%;
-  display: flex;
-  align-items:center;
-  font-size: 1.2em;
-}
-.display {
-  height: 20%;
-  font-size: 2em;
-  background-color: #4C87B8;
-}
-
-.press {
-  height: 70%;
-  font-size: 4em;
-}
-
-.press .btn {
-  height: 100%;
-  border-width: 1px;
-  border-color: white;
-  border-radius: 0;
-}
-
-.btn:hover {
-  background-color: red;
-}
-
-.col0 {
-  margin-left: 0.05em;
-  margin-right: 0.05em;
-  padding-top: 0.05em;
-  padding-bottom: 0.05em;
-}
-
-.col0 > .row {
-  padding-top: 0.05em; padding-bottom: 0.05em; padding-left: 0.05em; padding-right: 0.05em
-}
-
-.rowN {
-
-}
-
-.rowN > .col {
-  padding-left: 0.05em;
-  padding-right: 0.05em;
-}
-
-.col00 {
-
-}
-
-.col00 > .row {
-  padding-top: 0.05em; padding-bottom: 0.05em; padding-left: 0.05em; padding-right: 0.05em
+.header {
+  background-color: #5E185E;
+  /* padding: 2em 1em 2em 1em; */
 }

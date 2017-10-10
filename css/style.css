@@ -25,13 +25,9 @@ html, body {
   margin: 0.5em;
 }
 
-.header-space {
-  height: 10% !important;
-}
-
 .sec1 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -39,18 +35,24 @@ html, body {
   background-color: #962C2C;
 }
 
-.sec1 div {
-  height: 100%;
+.header-space {
+  background-color: grey;
+  flex: 1;
 }
 
-.sec11 {
+.content {
+  background-color: red;
+  flex: 9;
   display: flex;
-  align-items: center;
-  height: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
-.sec2 {
-  height: 100%;
-  width: 100%;
-  background-color: #41BB3C;
+.content * {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }

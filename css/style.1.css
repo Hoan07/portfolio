@@ -1,10 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  html {
-    transform: rotate(-90deg);
-  }
-}
-
-body {
+html, body {
   font-size: 14px;
   background-color: grey;
   overflow-x: hidden;
@@ -27,18 +21,11 @@ body {
 }
 
 .header .btn {
-  margin: 0.5em;
   background-color: inherit;
-  border: none;
+  margin: 0.5em;
 }
 
-.btn:hover {
-  color: #fff;
-  background-color: #218838;
-  text-decoration: underline;
-}
-
-.sec {
+.sec1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -54,7 +41,7 @@ body {
 }
 
 .content {
-  background-color: grey;
+  background-color: red;
   flex: 9;
   display: flex;
   flex-flow: row wrap;
@@ -68,11 +55,9 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin: 1em;
 }
 
 .content img {
-  max-height: 80%;
-  max-width: 80%;
-  border-radius: 2em;
+  height: auto;
+  max-width: 100%;
 }
